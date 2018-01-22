@@ -1,5 +1,7 @@
 # GitHub Stitch example: twitter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gr2m/github-stitch-example-twitter.svg)](https://greenkeeper.io/)
+
 > Example adding twitter handles to User entity
 
 ## Usage
