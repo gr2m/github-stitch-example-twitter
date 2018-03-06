@@ -6,7 +6,7 @@
   "dependencies": {
     "@gr2m/express-github-stitch": "^1.0.0",
     "cheerio": "^1.0.0-rc.2",
-    "compare-urls": "^1.0.0",
+    "compare-urls": "^2.0.0",
     "express": "^4.16.2",
     "got": "^8.0.3",
     "install": "^0.10.2",
