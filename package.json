@@ -2,14 +2,16 @@
   "name": "github-stitch-example-twitter",
   "version": "0.0.0-development",
   "description": "> Example adding twitter handles to User entity",
-  "author": "",
+  "author": "Gregor Martynus (https://twitter.com/gr2m)",
+  "engines": {
+    "node": ">=8"
+  },
   "dependencies": {
     "@gr2m/express-github-stitch": "^1.0.0",
     "cheerio": "^1.0.0-rc.2",
     "compare-urls": "^1.0.0",
     "express": "^4.16.2",
     "got": "^8.0.3",
-    "install": "^0.10.2",
     "npm": "^5.6.0"
   },
   "devDependencies": {
