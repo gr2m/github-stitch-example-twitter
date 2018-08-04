@@ -34,7 +34,11 @@
   },
   "homepage": "https://github.com/gr2m/github-stitch-example-twitter#readme",
   "release": {
-    "verifyConditions": ["@semantic-release/github"],
-    "publish": ["@semantic-release/github"]
+    "verifyConditions": [
+      "@semantic-release/github"
+    ],
+    "publish": [
+      "@semantic-release/github"
+    ]
   }
 }
