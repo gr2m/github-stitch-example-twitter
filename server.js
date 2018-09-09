@@ -18,7 +18,7 @@ const resolvers = mergeInfo => ({
       fragment: `fragment UserFragment on User { websiteUrl, login }`,
       // resolve the `twitter` property
       async resolve (parent, args, context, info) {
-        const {body} = await got(`twitter.com/${parent.login}`)
+        const { body } = await got(`twitter.com/${parent.login}`)
         const $ = cheerio.load(body)
         const twitterUrl = $('.ProfileHeaderCard-url [href]').attr('title')
 
@@ -30,6 +30,6 @@ const resolvers = mergeInfo => ({
   }
 })
 
-app.use(githubStitch({schema, resolvers}))
+app.use(githubStitch({ schema, resolvers }))
 
 app.listen(3000)
