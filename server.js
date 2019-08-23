@@ -15,7 +15,7 @@ const resolvers = mergeInfo => ({
   User: {
     twitter: {
       // define requirements for resolver, in this case url + login
-      fragment: `fragment UserFragment on User { websiteUrl, login }`,
+      fragment: 'fragment UserFragment on User { websiteUrl, login }',
       // resolve the `twitter` property
       async resolve (parent, args, context, info) {
         const { body } = await got(`twitter.com/${parent.login}`)
