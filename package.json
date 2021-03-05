@@ -23,16 +23,9 @@
     "start": "node server.js",
     "semantic-release": "semantic-release"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gr2m/github-stitch-example-twitter.git"
-  },
+  "repository": "github:gr2m/github-stitch-example-twitter",
   "keywords": [],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gr2m/github-stitch-example-twitter/issues"
-  },
-  "homepage": "https://github.com/gr2m/github-stitch-example-twitter#readme",
   "release": {
     "verifyConditions": [
       "@semantic-release/github"
